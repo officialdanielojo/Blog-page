@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: #f5d14eff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 5%;
+  font-family: myFirstFont;
+}
+
+main {
+  width: 400px;
+  height: fit-content;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  box-shadow: 10px 10px #000;
+}
+
+header img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.first-p {
+  background-color: #f7d259ff;
+  width: 80px;
+  text-align: center;
+  padding-block: 5px;
+  border-radius: 5px;
+  margin-block: 20px 15px;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.second-p {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 800;
+  padding-block: 20px;
+  cursor: pointer;
+  width: fit-content;
+  caret-color: #000;
+}
+h1:hover {
+  color: #f7d259ff;
+}
+
+.third-p {
+  width: 80%;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  opacity: 0.5;
+}
+
+.name-con {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  margin-block: 30px;
+}
+.name-con img {
+  width: 30px;
+}
+.name-con span {
+  padding-inline: 10px;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.attribution {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
