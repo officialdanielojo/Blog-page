@@ -52,11 +52,12 @@ header img {
 h1 {
   font-size: 22px;
   font-weight: 800;
-  padding-block: 20px;
+  margin-block: 20px;
   cursor: pointer;
   width: fit-content;
   caret-color: #000;
 }
+
 h1:hover {
   color: #f7d259ff;
 }
@@ -75,9 +76,12 @@ h1:hover {
   align-items: center;
   margin-block: 30px;
 }
+
 .name-con img {
   width: 30px;
+  border-radius: 100%;
 }
+
 .name-con span {
   padding-inline: 10px;
   font-size: 14px;
